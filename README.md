@@ -1,4 +1,4 @@
-# tsemodel7
+# tsemodule7
 
 ![image](https://github.com/Peyman2012/tsemodule7/assets/88220773/cf3d963a-219b-46bc-b096-df52af9877c1)
 
@@ -7,7 +7,7 @@ A library for managing stock and index data from TSETMC.
 
 ## Project folder structure:
 
-    tsemodel7/
+    tsemodule7/
     │
     │                   
     ├──tsemodule7/tsemodule7.py                     
