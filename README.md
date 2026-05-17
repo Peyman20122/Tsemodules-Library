@@ -10,7 +10,7 @@ A library for managing stock and index data from TSETMC.
     tsemodel7/
     │
     │                   
-    ├──tsemodule7\tsemodule7.py                     
+    ├──tsemodule7/tsemodule7.py                     
     | 
     ├── pyproject.toml
     |
