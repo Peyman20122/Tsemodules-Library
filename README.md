@@ -26,7 +26,7 @@ The StockManager class allows you to easily manage, download, process, and extra
 
 ### Example:
 
-    from tsemodel7 import StockManager, IndexManager
+    from tsemodule7 import StockManager, IndexManager
     
     stock_manager = StockManager()
     index_manager = IndexManager()
