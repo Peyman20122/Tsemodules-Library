@@ -10,8 +10,12 @@ A library for managing stock and index data from TSETMC.
     tsemodel7/
     │
     │                   
-    ├── tsemodule7.py                     
-    |                   
+    ├──tsemodule7\tsemodule7.py                     
+    | 
+    ├── pyproject.toml
+    |
+    ├── LICENS
+    |
     └── README.md
 
 
@@ -23,15 +27,15 @@ The StockManager class allows you to easily manage, download, process, and extra
 ### Example:
 
     from tsemodel7 import StockManager, IndexManager
-
+    
     stock_manager = StockManager()
     index_manager = IndexManager()
-
+    
     # Example calls
     print(stock_manager.stocklist())
     print(stock_manager.stock("آپ", value=10, standard=True))
     print(index_manager.index(value=10))
-    
+
 ### Output FROM StockManager Class:
 ![image](https://github.com/Peyman2012/tsemodule7/assets/88220773/924892d8-1eb5-477a-a0bc-9ef9bcf8de62)
 
@@ -51,7 +55,7 @@ The get_highest_close_price_today method examines only the data from the previou
 ### Example:
 
     high_price_manager = HighPriceManager()
-
+    
     # Example calls
     highest_close_prices_df = high_price_manager.get_highest_close_price_today(standard=True)
     print(highest_close_prices_df)
@@ -64,7 +68,6 @@ The get_highest_close_price_today method examines only the data from the previou
    https://www.kaggle.com/code/peimandaii/tsemodule7#Extended-version-of-the-library
 
    https://www.kaggle.com/models/peimandaii/tsemodules
-
 
 
 
